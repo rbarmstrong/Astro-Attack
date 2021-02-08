@@ -1,0 +1,34 @@
+TITLE: Ryan Armstrong, Section D, Astro Attack
+PROBLEM DESCRIPTION:Just like Space Invaders, in Astro Attack, the player controls the lone ship
+defending the Earth from the incoming alien invasion. The player can move their ship left and 
+right, and can fire lasers forwards in a straight line with spacebar. Only 1 laser can be on
+the screen at once.The wave of alien spaceships starts at the top of the screen and slowly moves 
+left to right towards the bottom of the screen, where the player is. The player gains 10 points 
+per alien destroyed and the player loses if the aliens reach the "danger zone" represented by 
+the red line at the bottom of the screen. If the player earns a score higher than the hi score,
+displayed next to the player score, the hi score is updated and saved in a text file.
+PROGRAM DOCUMENTATION: Left and Right arrow keys move the ship left and right respectively.
+Spacebar fires a laser as long as one does not already exist on the screen. The player
+can exit by clicking the red x in the top right corner of the window.
+Potential additions: Menu screen, animated enemies, more types of enemies worth different points,
+sound effects, enemies fire lasers at the player, player has 3 lives, restart button, multiple
+levels with scaling difficulty, random flying saucer at the top (like in Space Invaders)
+TESTS: Test 1: The player does not destroy any aliens. The player earns 0 points and the Game Over
+screen appears. The player loses control of their ship upon losing. The hi score is not updated.
+Test 2: The player destroys 10 aliens, earning 100 points and updating the hi score to 50. The Game
+Over screen displays once the lowest row of aliens reaches the danger zone.
+Test 3: The player destroys 5 aliens, earning 50 points. The hi score is not updated. The Game Over
+screen displays once the aliens reach the danger zone.
+Test 4: The player destroys 54 aliens, earning 540 points, but allowing 1 alien through. The Game
+Over screen displays once that alien reaches the danger zone. The hi score updates to 540.
+Test 5: The player destroys 55 aliens, earning 550 points and destroying all aliens. The Game Over
+screen does not display. The hi score is updated to 550.
+REFELCTIONS: I learned how to make a game in C++ using SFML! I learned how to use many of SFML's
+classes and functions such as RectangleShape, Texture, Sprite, and Text. I learned how to make 
+use of multiple complex classes and helper classes to all come together to create one big working
+game. Maximizing framerate was an issue for me, but I was able to combat this a bit by ensuring
+long loops were not crowded with many actions. I also learned how to use sstream to turn integers
+into text to be displayed. If I made another project in C++, I would definitely make another game,
+but would look for alternatives to SFML, as it seems unoptimized for having a good performing game.
+Alternatively, I would look into ways I could optimize my code to run the game smoothly at 60fps
+minimum.
