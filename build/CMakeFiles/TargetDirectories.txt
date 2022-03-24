@@ -1,4 +1,4 @@
-C:/Users/spect/Desktop/CLion Projects/Astro Attack/build/CMakeFiles/SFML_Template.dir
+C:/Users/spect/Desktop/CLion Projects/Astro Attack/build/CMakeFiles/AstroAttack.dir
 C:/Users/spect/Desktop/CLion Projects/Astro Attack/build/CMakeFiles/package.dir
 C:/Users/spect/Desktop/CLion Projects/Astro Attack/build/CMakeFiles/package_source.dir
 C:/Users/spect/Desktop/CLion Projects/Astro Attack/build/CMakeFiles/edit_cache.dir

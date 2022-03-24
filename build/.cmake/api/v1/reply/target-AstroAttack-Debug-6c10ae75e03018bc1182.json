@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/SFML_Template.exe"
+			"path" : "bin/AstroAttack.exe"
 		},
 		{
-			"path" : "bin/SFML_Template.pdb"
+			"path" : "bin/AstroAttack.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -91,7 +91,7 @@
 			]
 		}
 	],
-	"id" : "SFML_Template::@6890427a1f51a3e7e1df",
+	"id" : "AstroAttack::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -146,8 +146,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "SFML_Template",
-	"nameOnDisk" : "SFML_Template.exe",
+	"name" : "AstroAttack",
+	"nameOnDisk" : "AstroAttack.exe",
 	"paths" : 
 	{
 		"build" : ".",

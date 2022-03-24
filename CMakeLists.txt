@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(SFML_Template)
+project(AstroAttack)
 
 include_directories(include)
 link_directories(lib)
@@ -8,8 +8,8 @@ set(CMAKE_CXX_STANDARD 14)
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static-libstdc++ -static-libgcc")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY bin)
 
-add_executable(SFML_Template main.cpp ship.cpp ship.h helpers.h attackers.cpp attackers.h projectiles.cpp projectiles.h collisions.cpp collisions.h)
-target_link_libraries(SFML_Template sfml-audio sfml-graphics sfml-system sfml-window sfml-network sfml-main)
+add_executable(AstroAttack main.cpp ship.cpp ship.h helpers.h attackers.cpp attackers.h projectiles.cpp projectiles.h collisions.cpp collisions.h)
+target_link_libraries(AstroAttack sfml-audio sfml-graphics sfml-system sfml-window sfml-network sfml-main)
 
 # Copy single files
 macro(resource_files files)

@@ -963,7 +963,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "SFML_Template"
+			"value" : "AstroAttack"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",

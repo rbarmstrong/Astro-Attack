@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "SFML_Template",
+					"name" : "AstroAttack",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "SFML_Template::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SFML_Template-Debug-bec53b5d3bf2f44328cf.json",
-					"name" : "SFML_Template",
+					"id" : "AstroAttack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AstroAttack-Debug-6c10ae75e03018bc1182.json",
+					"name" : "AstroAttack",
 					"projectIndex" : 0
 				}
 			]

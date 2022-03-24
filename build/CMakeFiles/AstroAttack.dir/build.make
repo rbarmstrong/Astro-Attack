@@ -83,23 +83,91 @@ CMakeFiles/AstroAttack.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AstroAttack.dir/main.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\spect\Desktop\CLion Projects\Astro Attack\main.cpp" -o CMakeFiles\AstroAttack.dir\main.cpp.s
 
+CMakeFiles/AstroAttack.dir/ship.cpp.obj: CMakeFiles/AstroAttack.dir/flags.make
+CMakeFiles/AstroAttack.dir/ship.cpp.obj: CMakeFiles/AstroAttack.dir/includes_CXX.rsp
+CMakeFiles/AstroAttack.dir/ship.cpp.obj: ../ship.cpp
+CMakeFiles/AstroAttack.dir/ship.cpp.obj: CMakeFiles/AstroAttack.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\spect\Desktop\CLion Projects\Astro Attack\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AstroAttack.dir/ship.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AstroAttack.dir/ship.cpp.obj -MF CMakeFiles\AstroAttack.dir\ship.cpp.obj.d -o CMakeFiles\AstroAttack.dir\ship.cpp.obj -c "C:\Users\spect\Desktop\CLion Projects\Astro Attack\ship.cpp"
+
+CMakeFiles/AstroAttack.dir/ship.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AstroAttack.dir/ship.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\spect\Desktop\CLion Projects\Astro Attack\ship.cpp" > CMakeFiles\AstroAttack.dir\ship.cpp.i
+
+CMakeFiles/AstroAttack.dir/ship.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AstroAttack.dir/ship.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\spect\Desktop\CLion Projects\Astro Attack\ship.cpp" -o CMakeFiles\AstroAttack.dir\ship.cpp.s
+
+CMakeFiles/AstroAttack.dir/attackers.cpp.obj: CMakeFiles/AstroAttack.dir/flags.make
+CMakeFiles/AstroAttack.dir/attackers.cpp.obj: CMakeFiles/AstroAttack.dir/includes_CXX.rsp
+CMakeFiles/AstroAttack.dir/attackers.cpp.obj: ../attackers.cpp
+CMakeFiles/AstroAttack.dir/attackers.cpp.obj: CMakeFiles/AstroAttack.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\spect\Desktop\CLion Projects\Astro Attack\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AstroAttack.dir/attackers.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AstroAttack.dir/attackers.cpp.obj -MF CMakeFiles\AstroAttack.dir\attackers.cpp.obj.d -o CMakeFiles\AstroAttack.dir\attackers.cpp.obj -c "C:\Users\spect\Desktop\CLion Projects\Astro Attack\attackers.cpp"
+
+CMakeFiles/AstroAttack.dir/attackers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AstroAttack.dir/attackers.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\spect\Desktop\CLion Projects\Astro Attack\attackers.cpp" > CMakeFiles\AstroAttack.dir\attackers.cpp.i
+
+CMakeFiles/AstroAttack.dir/attackers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AstroAttack.dir/attackers.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\spect\Desktop\CLion Projects\Astro Attack\attackers.cpp" -o CMakeFiles\AstroAttack.dir\attackers.cpp.s
+
+CMakeFiles/AstroAttack.dir/projectiles.cpp.obj: CMakeFiles/AstroAttack.dir/flags.make
+CMakeFiles/AstroAttack.dir/projectiles.cpp.obj: CMakeFiles/AstroAttack.dir/includes_CXX.rsp
+CMakeFiles/AstroAttack.dir/projectiles.cpp.obj: ../projectiles.cpp
+CMakeFiles/AstroAttack.dir/projectiles.cpp.obj: CMakeFiles/AstroAttack.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\spect\Desktop\CLion Projects\Astro Attack\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AstroAttack.dir/projectiles.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AstroAttack.dir/projectiles.cpp.obj -MF CMakeFiles\AstroAttack.dir\projectiles.cpp.obj.d -o CMakeFiles\AstroAttack.dir\projectiles.cpp.obj -c "C:\Users\spect\Desktop\CLion Projects\Astro Attack\projectiles.cpp"
+
+CMakeFiles/AstroAttack.dir/projectiles.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AstroAttack.dir/projectiles.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\spect\Desktop\CLion Projects\Astro Attack\projectiles.cpp" > CMakeFiles\AstroAttack.dir\projectiles.cpp.i
+
+CMakeFiles/AstroAttack.dir/projectiles.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AstroAttack.dir/projectiles.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\spect\Desktop\CLion Projects\Astro Attack\projectiles.cpp" -o CMakeFiles\AstroAttack.dir\projectiles.cpp.s
+
+CMakeFiles/AstroAttack.dir/collisions.cpp.obj: CMakeFiles/AstroAttack.dir/flags.make
+CMakeFiles/AstroAttack.dir/collisions.cpp.obj: CMakeFiles/AstroAttack.dir/includes_CXX.rsp
+CMakeFiles/AstroAttack.dir/collisions.cpp.obj: ../collisions.cpp
+CMakeFiles/AstroAttack.dir/collisions.cpp.obj: CMakeFiles/AstroAttack.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\spect\Desktop\CLion Projects\Astro Attack\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AstroAttack.dir/collisions.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AstroAttack.dir/collisions.cpp.obj -MF CMakeFiles\AstroAttack.dir\collisions.cpp.obj.d -o CMakeFiles\AstroAttack.dir\collisions.cpp.obj -c "C:\Users\spect\Desktop\CLion Projects\Astro Attack\collisions.cpp"
+
+CMakeFiles/AstroAttack.dir/collisions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AstroAttack.dir/collisions.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\spect\Desktop\CLion Projects\Astro Attack\collisions.cpp" > CMakeFiles\AstroAttack.dir\collisions.cpp.i
+
+CMakeFiles/AstroAttack.dir/collisions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AstroAttack.dir/collisions.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\spect\Desktop\CLion Projects\Astro Attack\collisions.cpp" -o CMakeFiles\AstroAttack.dir\collisions.cpp.s
+
 # Object files for target AstroAttack
 AstroAttack_OBJECTS = \
-"CMakeFiles/AstroAttack.dir/main.cpp.obj"
+"CMakeFiles/AstroAttack.dir/main.cpp.obj" \
+"CMakeFiles/AstroAttack.dir/ship.cpp.obj" \
+"CMakeFiles/AstroAttack.dir/attackers.cpp.obj" \
+"CMakeFiles/AstroAttack.dir/projectiles.cpp.obj" \
+"CMakeFiles/AstroAttack.dir/collisions.cpp.obj"
 
 # External object files for target AstroAttack
 AstroAttack_EXTERNAL_OBJECTS =
 
-AstroAttack.exe: CMakeFiles/AstroAttack.dir/main.cpp.obj
-AstroAttack.exe: CMakeFiles/AstroAttack.dir/build.make
-AstroAttack.exe: CMakeFiles/AstroAttack.dir/linklibs.rsp
-AstroAttack.exe: CMakeFiles/AstroAttack.dir/objects1.rsp
-AstroAttack.exe: CMakeFiles/AstroAttack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\spect\Desktop\CLion Projects\Astro Attack\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AstroAttack.exe"
+bin/AstroAttack.exe: CMakeFiles/AstroAttack.dir/main.cpp.obj
+bin/AstroAttack.exe: CMakeFiles/AstroAttack.dir/ship.cpp.obj
+bin/AstroAttack.exe: CMakeFiles/AstroAttack.dir/attackers.cpp.obj
+bin/AstroAttack.exe: CMakeFiles/AstroAttack.dir/projectiles.cpp.obj
+bin/AstroAttack.exe: CMakeFiles/AstroAttack.dir/collisions.cpp.obj
+bin/AstroAttack.exe: CMakeFiles/AstroAttack.dir/build.make
+bin/AstroAttack.exe: CMakeFiles/AstroAttack.dir/linklibs.rsp
+bin/AstroAttack.exe: CMakeFiles/AstroAttack.dir/objects1.rsp
+bin/AstroAttack.exe: CMakeFiles/AstroAttack.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\spect\Desktop\CLion Projects\Astro Attack\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable bin\AstroAttack.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AstroAttack.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/AstroAttack.dir/build: AstroAttack.exe
+CMakeFiles/AstroAttack.dir/build: bin/AstroAttack.exe
 .PHONY : CMakeFiles/AstroAttack.dir/build
 
 CMakeFiles/AstroAttack.dir/clean:

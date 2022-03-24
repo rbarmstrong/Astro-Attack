@@ -136,24 +136,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SFML_Template
+# Target rules for targets named AstroAttack
 
 # Build rule for target.
-SFML_Template: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SFML_Template
-.PHONY : SFML_Template
+AstroAttack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AstroAttack
+.PHONY : AstroAttack
 
 # fast build rule for target.
-SFML_Template/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/build
-.PHONY : SFML_Template/fast
+AstroAttack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/build
+.PHONY : AstroAttack/fast
 
 attackers.obj: attackers.cpp.obj
 .PHONY : attackers.obj
 
 # target to build an object file
 attackers.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/attackers.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/attackers.cpp.obj
 .PHONY : attackers.cpp.obj
 
 attackers.i: attackers.cpp.i
@@ -161,7 +161,7 @@ attackers.i: attackers.cpp.i
 
 # target to preprocess a source file
 attackers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/attackers.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/attackers.cpp.i
 .PHONY : attackers.cpp.i
 
 attackers.s: attackers.cpp.s
@@ -169,7 +169,7 @@ attackers.s: attackers.cpp.s
 
 # target to generate assembly for a file
 attackers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/attackers.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/attackers.cpp.s
 .PHONY : attackers.cpp.s
 
 collisions.obj: collisions.cpp.obj
@@ -177,7 +177,7 @@ collisions.obj: collisions.cpp.obj
 
 # target to build an object file
 collisions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/collisions.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/collisions.cpp.obj
 .PHONY : collisions.cpp.obj
 
 collisions.i: collisions.cpp.i
@@ -185,7 +185,7 @@ collisions.i: collisions.cpp.i
 
 # target to preprocess a source file
 collisions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/collisions.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/collisions.cpp.i
 .PHONY : collisions.cpp.i
 
 collisions.s: collisions.cpp.s
@@ -193,7 +193,7 @@ collisions.s: collisions.cpp.s
 
 # target to generate assembly for a file
 collisions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/collisions.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/collisions.cpp.s
 .PHONY : collisions.cpp.s
 
 main.obj: main.cpp.obj
@@ -201,7 +201,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -209,7 +209,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -217,7 +217,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 projectiles.obj: projectiles.cpp.obj
@@ -225,7 +225,7 @@ projectiles.obj: projectiles.cpp.obj
 
 # target to build an object file
 projectiles.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/projectiles.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/projectiles.cpp.obj
 .PHONY : projectiles.cpp.obj
 
 projectiles.i: projectiles.cpp.i
@@ -233,7 +233,7 @@ projectiles.i: projectiles.cpp.i
 
 # target to preprocess a source file
 projectiles.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/projectiles.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/projectiles.cpp.i
 .PHONY : projectiles.cpp.i
 
 projectiles.s: projectiles.cpp.s
@@ -241,7 +241,7 @@ projectiles.s: projectiles.cpp.s
 
 # target to generate assembly for a file
 projectiles.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/projectiles.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/projectiles.cpp.s
 .PHONY : projectiles.cpp.s
 
 ship.obj: ship.cpp.obj
@@ -249,7 +249,7 @@ ship.obj: ship.cpp.obj
 
 # target to build an object file
 ship.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/ship.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/ship.cpp.obj
 .PHONY : ship.cpp.obj
 
 ship.i: ship.cpp.i
@@ -257,7 +257,7 @@ ship.i: ship.cpp.i
 
 # target to preprocess a source file
 ship.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/ship.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/ship.cpp.i
 .PHONY : ship.cpp.i
 
 ship.s: ship.cpp.s
@@ -265,7 +265,7 @@ ship.s: ship.cpp.s
 
 # target to generate assembly for a file
 ship.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML_Template.dir\build.make CMakeFiles/SFML_Template.dir/ship.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AstroAttack.dir\build.make CMakeFiles/AstroAttack.dir/ship.cpp.s
 .PHONY : ship.cpp.s
 
 # Help Target
@@ -278,7 +278,7 @@ help:
 	@echo ... package
 	@echo ... package_source
 	@echo ... rebuild_cache
-	@echo ... SFML_Template
+	@echo ... AstroAttack
 	@echo ... attackers.obj
 	@echo ... attackers.i
 	@echo ... attackers.s

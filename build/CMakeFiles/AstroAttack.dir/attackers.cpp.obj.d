@@ -1,12 +1,20 @@
-CMakeFiles/AstroAttack.dir/main.cpp.obj: \
- C:\Users\spect\Desktop\CLion\ Projects\Astro\ Attack\main.cpp \
- C:/msys64/mingw64/include/c++/11.2.0/iostream \
- C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++config.h \
- C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/os_defines.h \
- C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+CMakeFiles/AstroAttack.dir/attackers.cpp.obj: \
+ C:\Users\spect\Desktop\CLion\ Projects\Astro\ Attack\attackers.cpp \
+ C:\Users\spect\Desktop\CLion\ Projects\Astro\ Attack\attackers.h \
+ C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/Graphics.hpp \
+ C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/Window.hpp \
+ C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System.hpp \
+ C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/Config.hpp \
+ C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System/Clock.hpp \
+ C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System/Export.hpp \
+ C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System/Time.hpp \
+ C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System/Err.hpp \
  C:/msys64/mingw64/include/c++/11.2.0/ostream \
  C:/msys64/mingw64/include/c++/11.2.0/ios \
  C:/msys64/mingw64/include/c++/11.2.0/iosfwd \
+ C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stringfwd.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/memoryfwd.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/postypes.h \
@@ -122,39 +130,6 @@ CMakeFiles/AstroAttack.dir/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/11.2.0/bits/locale_facets.tcc \
  C:/msys64/mingw64/include/c++/11.2.0/bits/basic_ios.tcc \
  C:/msys64/mingw64/include/c++/11.2.0/bits/ostream.tcc \
- C:/msys64/mingw64/include/c++/11.2.0/istream \
- C:/msys64/mingw64/include/c++/11.2.0/bits/istream.tcc \
- C:/msys64/mingw64/include/c++/11.2.0/iomanip \
- C:/msys64/mingw64/include/c++/11.2.0/locale \
- C:/msys64/mingw64/include/c++/11.2.0/bits/locale_facets_nonio.h \
- C:/msys64/mingw64/include/c++/11.2.0/ctime \
- C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/time_members.h \
- C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/messages_members.h \
- C:/msys64/mingw64/include/c++/11.2.0/bits/codecvt.h \
- C:/msys64/mingw64/include/c++/11.2.0/bits/locale_facets_nonio.tcc \
- C:/msys64/mingw64/include/c++/11.2.0/bits/locale_conv.h \
- C:/msys64/mingw64/include/c++/11.2.0/bits/unique_ptr.h \
- C:/msys64/mingw64/include/c++/11.2.0/utility \
- C:/msys64/mingw64/include/c++/11.2.0/bits/stl_relops.h \
- C:/msys64/mingw64/include/c++/11.2.0/tuple \
- C:/msys64/mingw64/include/c++/11.2.0/array \
- C:/msys64/mingw64/include/c++/11.2.0/bits/uses_allocator.h \
- C:/msys64/mingw64/include/c++/11.2.0/bits/invoke.h \
- C:/msys64/mingw64/include/c++/11.2.0/bits/quoted_string.h \
- C:/msys64/mingw64/include/c++/11.2.0/sstream \
- C:/msys64/mingw64/include/c++/11.2.0/bits/sstream.tcc \
- C:/msys64/mingw64/include/c++/11.2.0/fstream \
- C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/basic_file.h \
- C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++io.h \
- C:/msys64/mingw64/include/c++/11.2.0/bits/fstream.tcc \
- C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/Graphics.hpp \
- C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/Window.hpp \
- C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System.hpp \
- C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/Config.hpp \
- C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System/Clock.hpp \
- C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System/Export.hpp \
- C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System/Time.hpp \
- C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System/Err.hpp \
  C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System/FileInputStream.hpp \
  C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System/InputStream.hpp \
  C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System/NonCopyable.hpp \
@@ -165,11 +140,26 @@ CMakeFiles/AstroAttack.dir/main.cpp.obj: \
  C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System/String.hpp \
  C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System/Utf.hpp \
  C:/msys64/mingw64/include/c++/11.2.0/algorithm \
+ C:/msys64/mingw64/include/c++/11.2.0/utility \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/stl_relops.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stl_algo.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/algorithmfwd.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stl_heap.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stl_tempbuf.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/uniform_int_dist.h \
+ C:/msys64/mingw64/include/c++/11.2.0/locale \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/locale_facets_nonio.h \
+ C:/msys64/mingw64/include/c++/11.2.0/ctime \
+ C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/time_members.h \
+ C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/codecvt.h \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/locale_facets_nonio.tcc \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/locale_conv.h \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/unique_ptr.h \
+ C:/msys64/mingw64/include/c++/11.2.0/tuple \
+ C:/msys64/mingw64/include/c++/11.2.0/array \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/uses_allocator.h \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/invoke.h \
  C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/System/Utf.inl \
  C:/msys64/mingw64/include/c++/11.2.0/iterator \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stream_iterator.h \
@@ -240,8 +230,7 @@ CMakeFiles/AstroAttack.dir/main.cpp.obj: \
  C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/Graphics/Sprite.hpp \
  C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/Graphics/Text.hpp \
  C:/Users/spect/Desktop/CLIONP~1/ASTROA~2/include/SFML/Graphics/VertexBuffer.hpp \
- C:\Users\spect\Desktop\CLion\ Projects\Astro\ Attack\ship.h \
  C:\Users\spect\Desktop\CLion\ Projects\Astro\ Attack\helpers.h \
- C:\Users\spect\Desktop\CLion\ Projects\Astro\ Attack\attackers.h \
- C:\Users\spect\Desktop\CLion\ Projects\Astro\ Attack\projectiles.h \
- C:\Users\spect\Desktop\CLion\ Projects\Astro\ Attack\collisions.h
+ C:/msys64/mingw64/include/c++/11.2.0/iostream \
+ C:/msys64/mingw64/include/c++/11.2.0/istream \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/istream.tcc

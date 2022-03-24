@@ -1,9 +1,17 @@
 file(REMOVE_RECURSE
-  "AstroAttack.exe"
-  "AstroAttack.exe.manifest"
-  "AstroAttack.pdb"
+  "CMakeFiles/AstroAttack.dir/attackers.cpp.obj"
+  "CMakeFiles/AstroAttack.dir/attackers.cpp.obj.d"
+  "CMakeFiles/AstroAttack.dir/collisions.cpp.obj"
+  "CMakeFiles/AstroAttack.dir/collisions.cpp.obj.d"
   "CMakeFiles/AstroAttack.dir/main.cpp.obj"
   "CMakeFiles/AstroAttack.dir/main.cpp.obj.d"
+  "CMakeFiles/AstroAttack.dir/projectiles.cpp.obj"
+  "CMakeFiles/AstroAttack.dir/projectiles.cpp.obj.d"
+  "CMakeFiles/AstroAttack.dir/ship.cpp.obj"
+  "CMakeFiles/AstroAttack.dir/ship.cpp.obj.d"
+  "bin/AstroAttack.exe"
+  "bin/AstroAttack.exe.manifest"
+  "bin/AstroAttack.pdb"
   "libAstroAttack.dll.a"
 )
 
