@@ -1,0 +1,27 @@
+[
+{
+  "directory": "C:/Users/spect/Desktop/CLion Projects/Astro Attack/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SFML_Template.dir/includes_CXX.rsp  -static-libstdc++ -static-libgcc -g -std=gnu++14 -o CMakeFiles\\SFML_Template.dir\\main.cpp.obj -c \"C:\\Users\\spect\\Desktop\\CLion Projects\\Astro Attack\\main.cpp\"",
+  "file": "C:/Users/spect/Desktop/CLion Projects/Astro Attack/main.cpp"
+},
+{
+  "directory": "C:/Users/spect/Desktop/CLion Projects/Astro Attack/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SFML_Template.dir/includes_CXX.rsp  -static-libstdc++ -static-libgcc -g -std=gnu++14 -o CMakeFiles\\SFML_Template.dir\\ship.cpp.obj -c \"C:\\Users\\spect\\Desktop\\CLion Projects\\Astro Attack\\ship.cpp\"",
+  "file": "C:/Users/spect/Desktop/CLion Projects/Astro Attack/ship.cpp"
+},
+{
+  "directory": "C:/Users/spect/Desktop/CLion Projects/Astro Attack/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SFML_Template.dir/includes_CXX.rsp  -static-libstdc++ -static-libgcc -g -std=gnu++14 -o CMakeFiles\\SFML_Template.dir\\attackers.cpp.obj -c \"C:\\Users\\spect\\Desktop\\CLion Projects\\Astro Attack\\attackers.cpp\"",
+  "file": "C:/Users/spect/Desktop/CLion Projects/Astro Attack/attackers.cpp"
+},
+{
+  "directory": "C:/Users/spect/Desktop/CLion Projects/Astro Attack/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SFML_Template.dir/includes_CXX.rsp  -static-libstdc++ -static-libgcc -g -std=gnu++14 -o CMakeFiles\\SFML_Template.dir\\projectiles.cpp.obj -c \"C:\\Users\\spect\\Desktop\\CLion Projects\\Astro Attack\\projectiles.cpp\"",
+  "file": "C:/Users/spect/Desktop/CLion Projects/Astro Attack/projectiles.cpp"
+},
+{
+  "directory": "C:/Users/spect/Desktop/CLion Projects/Astro Attack/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SFML_Template.dir/includes_CXX.rsp  -static-libstdc++ -static-libgcc -g -std=gnu++14 -o CMakeFiles\\SFML_Template.dir\\collisions.cpp.obj -c \"C:\\Users\\spect\\Desktop\\CLion Projects\\Astro Attack\\collisions.cpp\"",
+  "file": "C:/Users/spect/Desktop/CLion Projects/Astro Attack/collisions.cpp"
+}
+]

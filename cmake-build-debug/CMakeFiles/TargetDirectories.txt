@@ -1,3 +1,0 @@
-C:/Users/spect/Desktop/CLion Projects/Astro Attack/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/spect/Desktop/CLion Projects/Astro Attack/cmake-build-debug/CMakeFiles/SFML_Template.dir
-C:/Users/spect/Desktop/CLion Projects/Astro Attack/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -36,7 +36,7 @@ int main() {
 
     //load arcade font to be used for text
     Font arcadeFont;
-    if(!arcadeFont.loadFromFile("bin/data/ARCADE_N.ttf")) {
+    if(!arcadeFont.loadFromFile("data/ARCADE_N.ttf")) {
         cerr << "Could not load font" << endl;
         return -1;
     }
@@ -63,7 +63,7 @@ int main() {
 
     //initialize hiscore, either from hiscore.txt file or as 0 if file doe not exist, set text for hiscore
     int hiScoreInt;
-    ifstream hiScoreFile("bin/data/hiscore.txt");
+    ifstream hiScoreFile("data/hiscore.txt");
     ofstream newHiScore;
     if (!hiScoreFile.is_open()) {
         hiScoreInt = 0;
@@ -146,7 +146,7 @@ int main() {
                 //if player has achieved the new hiscore, update hiscore
                 if (playerScoreInt > hiScoreInt) {
                     hiScoreInt = playerScoreInt;
-                    newHiScore.open("bin/data/hiscore.txt");
+                    newHiScore.open("data/hiscore.txt");
                     newHiScore << hiScoreInt;
                     newHiScore.close();
                 }

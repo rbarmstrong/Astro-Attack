@@ -10,7 +10,7 @@ using namespace std;
 
 Attackers::Attackers() {
     //load texture for attackers
-    if (!tex.loadFromFile("bin/data/InvaderA_00@2x.png")) {
+    if (!tex.loadFromFile("data/InvaderA_00@2x.png")) {
         cerr << "Could not load texture" << endl;
         exit(-1);
     }

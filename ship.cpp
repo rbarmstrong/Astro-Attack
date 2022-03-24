@@ -9,7 +9,7 @@ using namespace std;
 
 Ship::Ship() {
     //load ship texture
-    if (!tex.loadFromFile("bin/data/Ship@2x.png")) {
+    if (!tex.loadFromFile("data/Ship@2x.png")) {
         cerr << "Could not load texture" << endl;
         exit(-1);
     }

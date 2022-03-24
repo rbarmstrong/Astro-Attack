@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cd6b44f-7acd-475d-b696-7f5eeb23ae65" name="Default Changelist" comment="" />
+    <list default="true" id="1cd6b44f-7acd-475d-b696-7f5eeb23ae65" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +23,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bCVFskGyQwDAr01YXtRldPuHgY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -98,6 +104,8 @@
       <workItem from="1612769452626" duration="849000" />
       <workItem from="1612770515915" duration="54000" />
       <workItem from="1612770808052" duration="214000" />
+      <workItem from="1619217235035" duration="4000" />
+      <workItem from="1619217315046" duration="57000" />
     </task>
     <servers />
   </component>
